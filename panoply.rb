@@ -6,7 +6,7 @@ class Panoply < Formula
   url "https://files.pythonhosted.org/packages/d0/59/8b3dfab969eb5f74135d9ade90a1d987993b588e944990d8737737cee62e/panoply-0.1.44.tar.gz"
   sha256 "827d38f7ddaf6f18920ecd551937fd90ee1ddeafeda6dc440a0cf6d69ba46ab2"
 
-  depends_on "python3"
+  depends_on 'python@3.9'
 
   resource "simple-term-menu" do
     url "https://files.pythonhosted.org/packages/de/08/08c19f7653a9d7c73df024090243a8a44583b613f8f1ed51d79cbb5ae70e/simple-term-menu-1.4.1.tar.gz"
@@ -19,6 +19,14 @@ class Panoply < Formula
   end
 
   test do
-    true
+    assert_match "There are no commands saved yet\n\
+    usage: panoply [-h] [-a] [-r]\n\
+    \n\
+    Save your commands and reuse them\
+    \n\
+    optional arguments:\n\
+      -h, --help    show this help message and exit\n\
+      -a, --add     add a command\n\
+      -r, --remove  remove a command\n", shell_output(bin/"panoply")
   end
 end
