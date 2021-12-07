@@ -1,9 +1,9 @@
 class Panoply < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
+  desc "Panoply: save your commands and reuse them"
   homepage "https://github.com/jeremynac/panoply"
-  url "https://files.pythonhosted.org/packages/a4/19/0e30bfdf33a4060d82ecd067584286ee0780d3f82cfb21909837c0ff1293/panoply-0.1.34.tar.gz"
+  url "https://files.pythonhosted.org/packages/86/d2/26c1483d1373a3a821ef1943a610259aff28d2f40a55321a80b135bb0672/panoply-0.1.36.tar.gz"
   sha256 "161cd07c41b9983b7d13a92f4370c7fb1c68efaac09521105fd0983bd6fa4e72"
 
   depends_on "python3"
