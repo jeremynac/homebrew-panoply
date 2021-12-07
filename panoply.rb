@@ -10,7 +10,7 @@ class Panoply < Formula
   sha256 "cb854e2f4718e110273cd372e8d66c32606af116d1fec145009d210955481e8f"
   license "MIT"
 
-  depends_on "python@3.x"
+  depends_on "python@3.9"
 
   resource "chardet" do
     url "https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz"
