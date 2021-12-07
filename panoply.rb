@@ -3,8 +3,8 @@ class Panoply < Formula
 
   desc "Shiny new formula"
   homepage "https://github.com/jeremynac/panoply"
-  url "https://files.pythonhosted.org/packages/a3/fe/1529c8c9810ff37dcfa88f0eafed3c03b814fbdc8adc397d27208e578ca0/panoply-0.1.33.tar.gz"
-  sha256 "6c1b15fab5d894150f6f460387ec3a08688d49799650235c9b8709519282658d"
+  url "https://files.pythonhosted.org/packages/a4/19/0e30bfdf33a4060d82ecd067584286ee0780d3f82cfb21909837c0ff1293/panoply-0.1.34.tar.gz"
+  sha256 "161cd07c41b9983b7d13a92f4370c7fb1c68efaac09521105fd0983bd6fa4e72"
 
   depends_on "python3"
 
