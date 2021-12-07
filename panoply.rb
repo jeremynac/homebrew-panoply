@@ -2,7 +2,7 @@ class Panoply < Formula
   include Language::Python::Virtualenv
 
   desc "Shiny new formula"
-  homepage ""
+  homepage "https://github.com/jeremynac/panoply"
   url "https://files.pythonhosted.org/packages/21/54/b6b5f8a5afa723859567f0598c422dcf5dde68a51e91219f07210fb58011/panoply-0.1.32.tar.gz"
   sha256 "6a3c456dbe2634112b062aed912d233857cf7a1bb65bfb2c87094c1e58537c51"
 
