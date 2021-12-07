@@ -1,1 +1,0 @@
-brew bump-formula-pr panoply --url="https://pypi.io/packages/source/p/panoply/panoply-$1.tar.gz" --version=$1
