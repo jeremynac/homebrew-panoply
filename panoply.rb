@@ -14,7 +14,7 @@ class Panoply < Formula
   end
 
   def install
-    virtualenv_create(libexec, "python3")
+    virtualenv_create(libexec, "python@3.9")
     virtualenv_install_with_resources
   end
 
