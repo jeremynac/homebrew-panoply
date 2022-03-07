@@ -3,8 +3,8 @@ class Panoply < Formula
 
   desc "Save your commands and reuse them"
   homepage "https://github.com/jeremynac/panoply"
-  url "https://files.pythonhosted.org/packages/a9/10/f1234e4f60205b83c47abef4910692167e4ae47c1c625024d3bf661d289a/panoply-0.1.48.tar.gz"
-  sha256 "82d5a92e43471a9de0d0b1451d7b162f81ed23f39f7b72b181a0bf964713a6d9"
+  url "https://files.pythonhosted.org/packages/9b/62/513eb3c792b79f3c8a322719d65b27a18d94cf520e4894f081bf9f1a0e84/panoply-0.1.50.tar.gz"
+  sha256 "d0e01d9b3f613513b4137b904b2d0fc7f1acfc4d986b2e9b30ce9252183a879a"
 
   depends_on "python3"
 
