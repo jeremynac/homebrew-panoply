@@ -19,7 +19,7 @@ class Panoply < Formula
   end
 
   test do
-    assert_match "There are no commands saved yet\n\
+    assert_match "\nThere are no commands saved yet\n\n\
     usage: panoply [-h] [-a] [-r]\n\
     \n\
     Save your commands and reuse them\
