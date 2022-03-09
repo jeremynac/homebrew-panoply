@@ -30,6 +30,8 @@ jobs:
         with:
           # Version range or exact version of a Python version to use, using SemVer's version range syntax.
           python-version: 3.9
+      - name: Install panoply
+        run: pip install panoply
       - name: Install sholl
         run: pip install sholl
       - name: Use sholl to update formula
